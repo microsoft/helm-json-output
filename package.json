@@ -1,0 +1,35 @@
+{
+  "name": "helm-json-output",
+  "version": "1.0.0",
+  "description": "Formats the output of helm commands to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/helm-json-output.git"
+  },
+  "keywords": [
+    "helm",
+    "json",
+    "output",
+    "parser",
+    "extension",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Microsoft/helm-json-output/issues"
+  },
+  "homepage": "https://github.com/Microsoft/helm-json-output#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}

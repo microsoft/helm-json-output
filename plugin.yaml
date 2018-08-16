@@ -1,0 +1,8 @@
+﻿name: "json"
+version: "0.1.0"
+usage: "Formats the output of helm commands to json."
+description: |-
+  Formats the output of helm commands to json.
+ignoreFlags: false
+useTunnel: false
+command: "node $HELM_PLUGIN_DIR/index.js"
