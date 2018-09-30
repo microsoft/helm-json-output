@@ -10,7 +10,7 @@ Example usage:
 
 `helm json status my-release-name`
 
-## Installtion
+## Installation
 
 `helm plugin install https://github.com/Microsoft/helm-json-output --version master`
 
