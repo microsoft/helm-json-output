@@ -73,7 +73,7 @@ function ExtractResources(helmRawOutput) {
 
   const matches = helmRawOutput.match(/(.*RESOURCES:\s+)((.|\n)*)(\s*NOTES:.*)/);
 
-  if (matches.length < 3) {
+  if (!matches || matches.length < 3) {
     return '';
   }
 
